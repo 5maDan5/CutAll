@@ -51,3 +51,7 @@ Options:
 ## Author
  
 __5maDan5__
+
+## License
+
+__"CutAll" is under [GNU-3.0 License]__
