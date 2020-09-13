@@ -54,4 +54,4 @@ __5maDan5__
 
 ## License
 
-__"CutAll" is under [GNU-3.0 License]__
+__"CutAll" is under [GPL-3.0 License]__
