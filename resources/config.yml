@@ -1,0 +1,44 @@
+##ブロック破壊時のパーティクル（true = on / false = off）
+enable.particle: false
+
+##一度に破壊できるブロック数の制限
+limit.count: 100
+
+##違う種類の木が連結していた際に破壊するかどうか（true = on / false = off）
+enable.wrong.wood.destroy: false
+
+##耐久値をどれだけ減らすか
+#0: どれだけ壊しても１しか減らない
+#1: 破壊したブロック分だけ減り、ツールの耐久度を上回っても破壊可
+#2: 破壊したブロック分だけ減り、ツールの耐久度を上回ると破壊不可
+durability: 0
+
+##CutAllの切り替えコマンドを設定
+toggle.command: cutall
+
+##葉を破壊するかどうか（true = on / false = off）
+enable.leaves.destroy: true
+
+##破壊した位置より下のブロックも破壊するかどうか（true = on / false = off）
+enable.under.destroy: false
+
+##ドロップしたアイテムをまとめるかどうか（true = on / false = off）
+enable.drop.gather: false
+
+##ログイン時のCutAllのON・OFF（true = on / false = off）
+start.mode: true
+
+##クリエイティブモードでCutAllを有効化するかどうか（true = on / false = off）
+enable.during.creative: false
+
+##一括破壊するブロックのID（コンマで区切って入力）
+block.ids: log,log2,brown_mushroom_block,red_mushroom_block
+
+##破壊する葉のIDを入力（コンマで区切って入力）
+leaves.ids: leaves,leaves2
+
+##一括破壊できるアイテムのID（コンマで区切って入力）
+item.ids: wooden_axe,stone_axe,iron_axe,golden_axe,diamond_axe
+
+##破壊する葉の範囲
+leaves.range: 3
